@@ -1,0 +1,18 @@
+.category-container {
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category-heading {
+    color: white;
+    margin-left: 3%;
+}
+
+@media (max-width:990px) {
+    .category-heading {
+        display: flex;
+        justify-content: center;
+        margin-left: 0%;
+    }
+}
